@@ -1,0 +1,19 @@
+#retrieve all users who registered within the last 30 days
+#DAY here refers I want to substract day(and not Hours or Month etc....)
+
+    SELECT *
+    FROM Users
+    WHERE CreatedDate >= DATEADD(DAY, -30, GETDATE());
+
+#find people with emails ending with specific domain @example.com
+this weird syntax (*)means count all rows including rowas with null values
+
+    SELECT COUNT(*) AS TotalUsers
+    FROM Users
+    WHERE Email LIKE '%@example.com';
+
+#update user based on id
+
+    UPDATE Users
+    SET Email = 'example@test.com'
+    WHERE UserId = 123;

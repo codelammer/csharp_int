@@ -1,9 +1,10 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "selenium_tests", "selenium_tests\selenium_tests.csproj", "{F428E43D-C485-4D28-AF82-18493D6D73CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\Entry.csproj", "{034740DE-9C29-4959-852B-D7622C51C84C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerProblem", "IntegerProblem\IntegerProblem.csproj", "{A50E5D06-F2F9-4FBB-8745-7BCCA1D9FD37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +15,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F428E43D-C485-4D28-AF82-18493D6D73CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F428E43D-C485-4D28-AF82-18493D6D73CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F428E43D-C485-4D28-AF82-18493D6D73CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F428E43D-C485-4D28-AF82-18493D6D73CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{034740DE-9C29-4959-852B-D7622C51C84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034740DE-9C29-4959-852B-D7622C51C84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034740DE-9C29-4959-852B-D7622C51C84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034740DE-9C29-4959-852B-D7622C51C84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50E5D06-F2F9-4FBB-8745-7BCCA1D9FD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50E5D06-F2F9-4FBB-8745-7BCCA1D9FD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50E5D06-F2F9-4FBB-8745-7BCCA1D9FD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50E5D06-F2F9-4FBB-8745-7BCCA1D9FD37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

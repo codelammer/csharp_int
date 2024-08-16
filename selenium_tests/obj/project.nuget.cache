@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hr3x1WAavig=",
+  "dgSpecHash": "XaI2Dd0/H4w=",
   "success": true,
   "projectFilePath": "E:\\gitRepo\\Projects\\csharp_proj\\csharp_int\\selenium_tests\\selenium_tests.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\codelammer\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\codelammer\\.nuget\\packages\\selenium.webdriver\\4.23.0\\selenium.webdriver.4.23.0.nupkg.sha512"
+  ],
   "logs": []
 }

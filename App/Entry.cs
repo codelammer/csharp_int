@@ -7,8 +7,10 @@ namespace CsharpInterview
     {
         static void Main(string[] args)
         {
-            IntegerProblem.descendingNonDuplicateList();
-            Console.WriteLine("Reading something from Entry.");
+            // q1
+            // IntegerProblem.descendingNonDuplicateList();
+            // q2
+            SeleniumTests.login("student", "Password123");
         }
     }
 }

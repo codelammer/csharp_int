@@ -10,6 +10,8 @@
   <ItemGroup>
     <ProjectReference Include="..\IntegerProblem\IntegerProblem.csproj" />
     <ProjectReference Include="..\SeleniumTests\SeleniumTests.csproj" />
+    <ProjectReference Include="..\GoogleTester\GoogleTester.csproj" />
+    <ProjectReference Include="..\AppiumProj\AppiumProj.csproj" />
   </ItemGroup>
 
 </Project>

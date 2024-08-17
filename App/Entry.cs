@@ -9,9 +9,13 @@ namespace CsharpInterview
         {
             // q1
             // IntegerProblem.descendingNonDuplicateList();
-            // q2
-            SeleniumTests.login("student", "Password123");
-            // q4 --> sql_statemens.txt
+            // q2 
+            // SeleniumTests.login("student", "Password123");
+            // q3 --> sql_statemens.txt
+            // q4
+            GoogleTester.testCrawlGoogle();
+            // q5
+            AppiumProj.testMobile()
             
         }
     }
